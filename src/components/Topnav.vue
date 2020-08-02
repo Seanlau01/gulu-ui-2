@@ -18,6 +18,8 @@
     .topnav{
         background:#FDC7CB;
         padding:20px;  
+        position:relative;
+        z-index:10;
     }
     .clearfix::after{
         content:'';
