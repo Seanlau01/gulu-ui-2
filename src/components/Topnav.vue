@@ -22,7 +22,10 @@ import { inject, Ref } from 'vue'
     .topnav{
         background:#FDC7CB;
         padding:16px;  
-        position:relative;
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
         z-index:10;
         display:flex;
         justify-content: center;
