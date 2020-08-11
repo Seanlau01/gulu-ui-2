@@ -21,6 +21,3 @@ export const router=createRouter({
         ]}
     ]
 })
-router.afterEach(()=>{
-    console.log('Hi,路由切换了')
-})

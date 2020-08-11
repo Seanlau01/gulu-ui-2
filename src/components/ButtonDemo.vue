@@ -1,13 +1,21 @@
 <template>
     <div>
-   <Button>
+   <Button @click="onClick"
+   @focus="onClick"
+   @mouseover="onClick">
     我是 Button
    </Button>
     </div>
 </template>
 <script lang="ts">
-import Button from 'Button.vue'
+import Button from '../lib/Button.vue'
 export default {
-   component:{ Button }
+   components:{ Button },
+   setup(){
+      const onClick=()=>{
+
+      }
+      return {onClick}
+   }
 }
 </script>
