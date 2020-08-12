@@ -78,7 +78,7 @@ $radius: 4px;
       background: darken(white, 5%);;
     }
   }
-  &.gulu-theme-button{
+  
     &.gulu-size-big{
       font-size:24px;
       height:48px;
@@ -89,7 +89,7 @@ $radius: 4px;
       height:20px;
       padding:0 4px;
     }
-  }
+
 }
 
 </style>
